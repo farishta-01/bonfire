@@ -86,19 +86,19 @@ export default function Navbar() {
             </div>
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
               <div className="flex flex-shrink-0 items-center">
-                <Link to='/bonfire-invitation/'>
+                <Link to='/demo/'>
                   <img className="h-8 w-auto" src={logo} alt="Your Company" />
                 </Link>
               </div>
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
-                  <Link to="/bonfire-invitation/ticket" className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page" onClick={closeMobileMenu}>
+                  <Link to="/demo/ticket" className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page" onClick={closeMobileMenu}>
                     Book Ticket
                   </Link>
-                  <Link to="/bonfire-invitation/team" className="bg-gray-600 text-white hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" onClick={closeMobileMenu}>
+                  <Link to="/demo/team" className="bg-gray-600 text-white hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" onClick={closeMobileMenu}>
                     Team
                   </Link>
-                  <Link to="/bonfire-invitation/gallery" className="bg-gray-600 text-white hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" onClick={closeMobileMenu}>
+                  <Link to="/demo/gallery" className="bg-gray-600 text-white hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" onClick={closeMobileMenu}>
                     Gallery
                   </Link>
                 </div>

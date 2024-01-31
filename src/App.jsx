@@ -14,12 +14,12 @@ function App() {
     
    
       <Routes>
-      <Route path="bonfire-invitation/" element={<div> <Navbar/><Flex /><Team /><Ticket/></div>} />
+      <Route path="demo/" element={<div> <Navbar/><Flex /><Team /><Ticket/></div>} />
 
-        <Route path="bonfire-invitation/team" element={<div> <Navbar/><Team /><Conatct/></div>}/>
-        <Route path="bonfire-invitation/ticket" element={<div> <Navbar/><Ticket  /><Conatct/></div>} />
+        <Route path="demo/team" element={<div> <Navbar/><Team /><Conatct/></div>}/>
+        <Route path="demo/ticket" element={<div> <Navbar/><Ticket  /><Conatct/></div>} />
         
-        <Route path="bonfire-invitation/gallery" element={<div> <Navbar/><Gallery /><Conatct/></div>} />
+        <Route path="demo/gallery" element={<div> <Navbar/><Gallery /><Conatct/></div>} />
       </Routes>
       
     
