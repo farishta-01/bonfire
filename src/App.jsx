@@ -14,12 +14,12 @@ function App() {
     
    
       <Routes>
-      <Route path="/" element={<div> <Navbar/><Flex /><Team /><Ticket/></div>} />
+      <Route path="/demo/" element={<div> <Navbar/><Flex /><Team /><Ticket/></div>} />
 
-        <Route path="/demo/team/" element={<div> <Navbar/><Team /><Conatct/></div>}/>
-        <Route path="/demo/ticket/" element={<div> <Navbar/><Ticket  /><Conatct/></div>} />
+        <Route path="/team" element={<div> <Navbar/><Team /><Conatct/></div>}/>
+        <Route path="/ticket" element={<div> <Navbar/><Ticket  /><Conatct/></div>} />
         
-        <Route path="/demo/gallery/" element={<div> <Navbar/><Gallery /><Conatct/></div>} />
+        <Route path="/gallery" element={<div> <Navbar/><Gallery /><Conatct/></div>} />
       </Routes>
       
     
