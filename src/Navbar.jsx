@@ -110,11 +110,14 @@ export default function Navbar() {
         {isMobileMenuOpen && (
           <div className="sm:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
-              <Link to="/ticket" className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page" onClick={closeMobileMenu}>
+              <Link to="/demo/ticket" className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page" onClick={closeMobileMenu}>
                 Book Ticket
               </Link>
-              <Link to="/team" className="  text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" onClick={closeMobileMenu}>
+              <Link to="/demo/team" className="  text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" onClick={closeMobileMenu}>
                 Team
+              </Link>
+              <Link to="/demo/gallery" className="  text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" onClick={closeMobileMenu}>
+                Gallery
               </Link>
             </div>
           </div>
