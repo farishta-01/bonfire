@@ -5,11 +5,11 @@ import './index.css'
 import { BrowserRouter, HashRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <HashRouter >
+  <BrowserRouter >
   <React.StrictMode>
     
      <App />
     
   </React.StrictMode>
-  </HashRouter>
+  </BrowserRouter>
 )
