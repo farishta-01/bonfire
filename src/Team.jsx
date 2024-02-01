@@ -4,13 +4,13 @@ import Sami from './assets/Sami.webp'
 import Mubara from './assets/Mubara.webp'
 import Laiba_Arshad from './assets/Laiba_Arshad.webp'
 export default function Team() {
-  return (
-    <div id='team'>
+  return (  <>
+	<div id='team' className='mt-5  mb-20  md:mt-30 lg:mt-60 xl:mt-50'>
     <div className="container mx-auto">
-      <>
+    
       <div className="max-w-screen-xl p-5 mx-auto  text-gray-100">
 
-          <h1 className="my-16 text-4xl text-center  font-bold tracking-tight text-white sm:text-6xl">Team</h1>
+          <h1 className=" my-5 text-4xl text-center  font-bold tracking-tight text-white sm:text-6xl">Team</h1>
 	<div className="grid grid-cols-1 gap-5 lg:grid-cols-4 sm:grid-cols-2">
     <div className={`relative flex items-end justify-start w-full text-left bg-center bg-cover h-96 bg-gray-500`} style={{ backgroundImage: `url(${Samroz})` }}>
 
@@ -67,8 +67,10 @@ export default function Team() {
 		</div>
 	</div>
 </div>
-      </>
+   
     </div>
     </div>
+	
+	</>
   )
 }

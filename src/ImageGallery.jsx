@@ -1,4 +1,5 @@
 import React from 'react';
+import Conatct from './Conatct';
 import Image1 from './assets/1.webp';
 import Image2 from './assets/2.webp';
 import Image3 from './assets/3.webp';
@@ -33,8 +34,8 @@ const images = [
 
 const ImageGallery = () => {
   return (
-    <>
-      <h2 className="text-3xl font-bold mb-4">Image Gallery</h2>
+    <><div className='mt-20 mb-5 '>
+     
       <div className="container mx-auto mt-8 p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 bg-white">
         {images.map((image, index) => (
           <div key={index} className="w-full aspect-w-4 aspect-h-3">
@@ -46,6 +47,11 @@ const ImageGallery = () => {
           </div>
         ))}
       </div>
+      </div>
+      <div className="contact">
+     <Conatct/>
+
+     </div>
     </>
   );
 };

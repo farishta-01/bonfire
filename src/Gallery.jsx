@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import ImageGallery from './ImageGallery';
 import PinAuthentication from './PinAuthentication';
 import { Routes } from 'react-router-dom';
+import Conatct from './Conatct';
 
 const  Gallery= () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -15,14 +16,16 @@ const  Gallery= () => {
  
 
   return (
-    
-    <div>
+    <>
+    <div className='' >
       {isAuthenticated ? (
         <ImageGallery images={images} />
       ) : (
         <PinAuthentication onAuthenticationSuccess={handleAuthenticationSuccess} />
       )}
-    </div>
+   
+     </div>
+     </>
   );
 };
 

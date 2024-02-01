@@ -65,11 +65,11 @@ export default function Ticket() {
   };
 
   return (
-    <div className='bg-gray-800'>
-    <div id='ticket ' className='bg-gray-800' >
-      <>
-        <section className="p-6  dark:text-gray-50">
-          <h1 className="text-4xl text-center  font-bold tracking-tight my-11 text-white sm:text-6xl">
+    
+    <div id='ticket' className='mt-12 mb-20  md:mt-30 lg:mt-60 xl:mt-50 bg-gray-900' >
+    <>
+      <section className="p-6  dark:text-white">
+          <h1 className=" my-5  text-4xl text-center  font-bold tracking-tight  text-white sm:text-6xl">
             Book Ticket
           </h1>
           <form
@@ -219,6 +219,6 @@ export default function Ticket() {
         </section>
       </>
     </div>
-    </div>
+  
   );
 }

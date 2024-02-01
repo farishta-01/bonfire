@@ -2,7 +2,7 @@ import React from 'react'
 import logo from './assets/LOGO.webp'
 export default function Conatct() {
   return (
-    <div id='contact'>
+    <div id='contact' className='mb-15'>
       <>
       <footer className="bg-gradient-to-bl from-gray-200 via-gray-400 to-gray-600  dark:text-gray-50">
       <div className="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row dark:divide-gray-400">
@@ -11,7 +11,7 @@ export default function Conatct() {
     <img
   src={logo}
   alt="Your SVG Icon"
-  className="w-30 h-10 sm:w-10 sm:h-10 md:w-200 md:h-32 lg:w-52 lg:h-150 xl:w-200 xl:h-10 rounded-full text-gray-900"
+  className=" h-12 w-auto"
 />
    </li>
      
