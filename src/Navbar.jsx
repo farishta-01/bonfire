@@ -86,19 +86,19 @@ export default function Navbar() {
             </div>
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
               <div className="flex flex-shrink-0 items-center">
-                <Link to='/demo/'>
+                <Link to='/bonfire/'>
                   <img className="h-12 w-auto mx-12" src={logo} alt="Your Company" />
                 </Link>
               </div>
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
-                  <Link to="/demo/ticket" className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page" onClick={closeMobileMenu}>
+                  <Link to="/ticket" className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page" onClick={closeMobileMenu}>
                     Book Ticket
                   </Link>
-                  <Link to="/demo/team" className="bg-gray-600 text-white hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" onClick={closeMobileMenu}>
+                  <Link to="/team" className="bg-gray-600 text-white hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" onClick={closeMobileMenu}>
                     Team
                   </Link>
-                  <Link to="/demo/gallery" className="bg-gray-600 text-white hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" onClick={closeMobileMenu}>
+                  <Link to="/gallery" className="bg-gray-600 text-white hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" onClick={closeMobileMenu}>
                     Gallery
                   </Link>
                 </div>
