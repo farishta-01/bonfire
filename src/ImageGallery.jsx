@@ -34,9 +34,13 @@ const images = [
 
 const ImageGallery = () => {
   return (
-    <><div className='mt-20 mb-5 '>
+
+
+    <>
+    <div id='ImageGallery' className=''>
+    <div className='mt-16 mb-5  bg-gray-900'>
      
-      <div className="container mx-auto mt-8 p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 bg-white">
+      <div className="container mx-auto mt-8 p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 bg-red-100">
         {images.map((image, index) => (
           <div key={index} className="w-full aspect-w-4 aspect-h-3">
             <img
@@ -51,6 +55,7 @@ const ImageGallery = () => {
       <div className="contact">
      <Conatct/>
 
+     </div>
      </div>
     </>
   );

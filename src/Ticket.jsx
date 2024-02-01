@@ -66,10 +66,11 @@ export default function Ticket() {
 
   return (
     
-    <div id='ticket' className='mt-12 mb-20  md:mt-30 lg:mt-60 xl:mt-50 bg-gray-900' >
+    <div id='ticket' className=' mt-5  mb-40   bg-gray-900' >
     <>
       <section className="p-6  dark:text-white">
-          <h1 className=" my-5  text-4xl text-center  font-bold tracking-tight  text-white sm:text-6xl">
+        <div className="mt-40 ">
+          <h1 className=" my-4  text-4xl text-center  font-bold tracking-tight  text-white sm:text-6xl">
             Book Ticket
           </h1>
           <form
@@ -77,7 +78,7 @@ export default function Ticket() {
             onSubmit={handleSubmit}
             className="container flex flex-col mx-auto space-y-12"
           >
-            <fieldset className="grid grid-cols-4 gap-6 p-6 rounded-md shadow-sm dark:bg-gray-600">
+            <fieldset className="grid grid-cols-4 gap-6 p-6 rounded-md shadow-sm bg-gray-500">
               <div className="space-y-2 col-span-full lg:col-span-1">
                 <p className="font-medium">Ticket</p>
                 <p className="text-xs">Charges: 1500 Rs.</p>
@@ -216,6 +217,7 @@ export default function Ticket() {
 
             </fieldset>
           </form>
+          </div>
         </section>
       </>
     </div>

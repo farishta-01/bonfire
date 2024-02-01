@@ -12,10 +12,10 @@ function App() {
   return (
     <div className='bg-gray-900'>
       <Routes>
-      <Route path="/bonfire/" element={ <HomePage/> }/>
-      <Route path="/team" element={<div> <Navbar/><Team /><Conatct/></div>}/>
-      <Route path="/ticket" element={<div> <Navbar/><Ticket/><Conatct/></div>} />
-      <Route path="/gallery" element={<div> <Navbar/><Gallery /></div>} />
+      <Route exact path="/bonfire/" element={ <HomePage/> }/>
+      <Route exact path="/bonfire/team" element={<div> <Navbar/><Team /><Conatct/></div>}/>
+      <Route exact path="/bonfire/ticket" element={<div> <Navbar/><Ticket/><Conatct/></div>} />
+      <Route exact path="/bonfire/gallery" element={<div> <Navbar/><Gallery /></div>} />
       </Routes>
     </div>
 

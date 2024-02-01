@@ -12,6 +12,9 @@ export default {
       'xs': '300px',
    
     },
+    imageRendering: {
+      'pixelated': 'pixelated',
+    },
   
   },
   },
